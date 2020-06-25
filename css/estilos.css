@@ -1,0 +1,16 @@
+/* con esto agregamos las mismas caracteristicas a todos los elementos h1 */
+h1{
+    color: blueviolet;    
+}
+/* con una identificador podermos agregar caracteristicas diferentes dentro de un mismo bloque */
+#unico{
+    color: brown;
+}
+/* con una clase podemos definir valores que se agregaran no tomando en cuenta si es o no un mismo objeto */
+.azul{
+    color: blue;
+}
+
+.colores{
+    color: tomato;
+}

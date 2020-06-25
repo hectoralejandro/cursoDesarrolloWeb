@@ -1,0 +1,14 @@
+h1{
+    background-color: salmon;
+    color: white;
+    /* la siguiente linea de codigo es para poder convertir los h1 que son de bloque(para abajo) a lineales */
+    display: inline-block; 
+}
+
+a{
+    background-color: salmon;
+    color: white;
+    padding: 5px;
+    border: 20px;
+    display: block;
+}
