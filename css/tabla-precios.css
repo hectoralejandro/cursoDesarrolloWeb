@@ -1,0 +1,62 @@
+.container{
+    margin: 0 auto;
+
+}
+body{
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(238, 238, 238);
+    color: #333;
+    border: 1px solid  #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 9px #888;
+    width: 23%;
+    box-sizing: border-box;
+
+}
+.precio{
+
+    font-size: 50px;
+    color: #00dac7; 
+}
+
+.btn-precio{
+    background: salmon;
+    display:block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    /* esta funcion sirve para cuando el boton esta seleccionado y con ella pueda cambair de color  */
+        background: orange;
+     
+    }
+
+    @media(max-width: 1070px){
+        .columna {
+            width: 40%;}
+    }
+
+    
+    @media(max-width: 560px){
+        .columna {
+             width: 90%;
+        }
+    }
